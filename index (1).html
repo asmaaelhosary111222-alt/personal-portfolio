@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Asmaa Mahmoud El-Hosary | Frontend Developer</title>
+
+  <meta
+    name="description"
+    content="Asmaa Mahmoud El-Hosary is a Frontend Developer in Alexandria, Egypt, building responsive, user-friendly web interfaces with React.js, Next.js, TypeScript and Tailwind CSS."
+  />
+  <meta name="author" content="Asmaa Mahmoud El-Hosary" />
+  <meta name="theme-color" content="#ffffff" id="theme-color" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/asmaaelhosary111222-alt" />
+  <meta property="og:title" content="Asmaa Mahmoud El-Hosary | Frontend Developer" />
+  <meta
+    property="og:description"
+    content="Frontend Developer building responsive web interfaces with React.js, Next.js, TypeScript and Tailwind CSS."
+  />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Asmaa Mahmoud El-Hosary | Frontend Developer" />
+  <meta
+    name="twitter:description"
+    content="Frontend Developer based in Alexandria, Egypt."
+  />
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+
+        if (!t) {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+
+        document.documentElement.classList.toggle("dark", t === "dark");
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    crossorigin="anonymous"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cairo:wght@600;800&display=swap"
+  />
+
+  <link rel="icon" type="image/png" href="./assets/imgs/favicon.png" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <svg
+    width="0"
+    height="0"
+    style="position:absolute"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <symbol id="i-ts" viewBox="0 0 24 24">
+      <path
+        fill="currentColor"
+        d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
+      />
+    </symbol>
+
+    <symbol id="i-tw" viewBox="0 0 24 24">
+      <path
+        fill="currentColor"
+        d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913-0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+      />
+    </symbol>
+
+    <symbol id="i-next" viewBox="0 0 24 24">
+      <path
+        fill="currentColor"
+        d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.572 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z"
+      />
+    </symbol>
+
+    <symbol id="i-vite" viewBox="0 0 24 24">
+      <path
+        fill="currentColor"
+        d="M2.2 3.4c-.5-.9.2-1.7 1.1-1.5l8.2 1.5a1 1 0 0 0 .4 0l8.1-1.5c.9-.2 1.6.6-1.1 1.5L12.9 21.9a1 1 0 0 1-1.8 0z"
+        opacity=".35"
+      />
+      <path
+        fill="currentColor"
+        d="M16.2 2.6l-5.7 1.1a.6.6 0 0 0-.5.5l-.5 5.2a.5.5 0 0 0 .6.5l1.6-.3a.5.5 0 0 1 .6.6l-.5 2.7a.5.5 0 0 0 .6.6l1-.2a.5.5 0 0 1 .6.6l-1.6 6.4c-.1.5.6.7.8.3L18.4 8.6a.5.5 0 0 0-.5-.7l-1.7.3a.5.5 0 0 1-.6-.6l1.1-4.6a.5.5 0 0 0-.5-.4z"
+      />
+    </symbol>
+  </svg>
+
+  <a href="#main-content" class="skip">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="wrap nav">
+
+      <a href="#hero-section" class="logo" aria-label="Asmaa Elhosary, home">
+        <i class="fa-solid fa-code" aria-hidden="true"></i>
+        <span>Asmaa El-Hosary</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="links">
+          <li><a href="#hero-section">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills-section">Skills</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+
+        <a
+          href="assets/Asmaa-Mahmoud-El-Hosary-CV.pdf"
+          download="Asmaa-Mahmoud-El-Hosary-CV.pdf"
+          class="btn btn-p btn-sm cv-nav"
+          data-cv
+        >
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+          Download CV
+        </a>
+
+        <button
+          id="theme-toggle"
+          class="toggle"
+          type="button"
+          aria-label="Switch to dark theme"
+          title="Switch to dark theme"
+        >
+          <span class="toggle-track" aria-hidden="true">
+            <i class="fa-solid fa-sun t-sun"></i>
+            <i class="fa-solid fa-moon t-moon"></i>
+            <span class="toggle-thumb"></span>
+          </span>
+        </button>
+
+        <button
+          class="burger"
+          id="burger"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile"
+        >
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <nav class="mobile" id="mobile" aria-label="Mobile navigation">
+      <a href="#hero-section">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills-section">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+
+      <a
+        href="assets/Asmaa-Mahmoud-El-Hosary-CV.pdf"
+        download="Asmaa-Mahmoud-El-Hosary-CV.pdf"
+        class="btn btn-p"
+        data-cv
+      >
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+        Download CV
+      </a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section id="hero-section" class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="wrap hero-grid">
+
+        <div class="photo-col rv">
+          <div class="photo">
+
+            <span class="ring ring-static" aria-hidden="true"></span>
+            <span class="ring ring-spin" aria-hidden="true"></span>
+
+            <div class="photo-img">
+              <img
+                src="./assets/imgs/ASMAAELHOSARY.jpeg"
+                alt="Portrait of Asmaa Mahmoud El-Hosary, Frontend Developer"
+                fetchpriority="high"
+                decoding="async"
+                width="400"
+                height="400"
+              />
+            </div>
+
+            <span class="chip chip-react" aria-hidden="true">
+              <i class="fa-brands fa-react"></i>
+            </span>
+
+            <span class="chip chip-next" aria-hidden="true">
+              <svg>
+                <use href="#i-next"></use>
+              </svg>
+            </span>
+
+            <span class="chip chip-figma" aria-hidden="true">
+              <i class="fa-brands fa-figma"></i>
+            </span>
+
+            <span class="chip chip-vite" aria-hidden="true">
+              <svg>
+                <use href="#i-vite"></use>
+              </svg>
+            </span>
+
+            <span class="chip chip-code" aria-hidden="true">
+              <i class="fa-solid fa-code"></i>
+            </span>
+
+          </div>
+        </div>
+
+        <div class="hero-text rv">
+          <p class="hello">Hello, I'm</p>
+
+          <h1 id="hero-title">
+            Asmaa Mahmoud <br />
+            El-Hosary
+          </h1>
+
+          <p class="ar-name" lang="ar" dir="rtl">
+            اسماء محمود محمد محمد محمود الحصري
+          </p>
+
+          <div class="role">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            Frontend Developer
+          </div>
+
+          <p class="lead">
+            I turn ideas into <b>clean, responsive web experiences</b>.
+            Based in Alexandria, Egypt, I build modern web applications
+            with React, Next.js and TypeScript.
+          </p>
+
+          <div class="ctas">
+            <a href="#portfolio" class="btn btn-p">
+              View my projects
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+            <a href="#contact" class="btn btn-o">
+              Contact me
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="social">
+            <a
+              href="https://github.com/asmaaelhosary111222-alt"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub (opens in a new tab)"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/asmaa-mahmoud-41bb923a4"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn (opens in a new tab)"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="mailto:asmaaelhosary111222@gmail.com"
+              aria-label="Email Asmaa"
+            >
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+
+            <span class="loc">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              Alexandria, Egypt
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="alt" aria-labelledby="about-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">About me</span>
+          <h2 id="about-title">Who I am</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="editor rv">
+            <div class="editor-bar">
+              <i></i>
+              <i></i>
+              <i></i>
+              <span>asmaa.js</span>
+            </div>
+
+            <pre dir="ltr"><code><span class="ln">1</span><span class="cm">// About me</span>
+<span class="ln">2</span><span class="kw">const</span> <span class="vr">asmaa</span> = {
+<span class="ln">3</span>  <span class="pr">name</span>: <span class="st">"Asmaa Elhosary"</span>,
+<span class="ln">4</span>  <span class="pr">title</span>: <span class="st">"Frontend Developer"</span>,
+<span class="ln">5</span>  <span class="pr">location</span>: <span class="st">"Alexandria, Egypt"</span>,
+<span class="ln">6</span>  <span class="pr">skills</span>: [
+<span class="ln">7</span>    <span class="st">"HTML"</span>, <span class="st">"CSS"</span>, <span class="st">"JavaScript"</span>,
+<span class="ln">8</span>    <span class="st">"React.js"</span>, <span class="st">"Next.js"</span>, <span class="st">"TypeScript"</span>,
+<span class="ln">9</span>    <span class="st">"Tailwind CSS"</span>
+<span class="ln">10</span>  ],
+<span class="ln">11</span>  <span class="pr">focus</span>: <span class="st">"Frontend Development"</span>
+<span class="ln">12</span>};</code></pre>
+          </div>
+
+          <div class="about rv">
+            <h3>I build ideas into modern web experiences</h3>
+
+            <p>
+              I’m a Frontend Developer based in Alexandria, Egypt, with
+              hands-on experience building responsive web applications using
+              React.js and Next.js. I enjoy turning ideas into clean,
+              user-friendly interfaces and working with APIs, authentication,
+              forms, and dynamic content.
+            </p>
+
+            <p>
+              I’m continuously developing my frontend skills through
+              practical projects and technical training.
+            </p>
+
+            <ul class="focus-list">
+              <li>
+                <i class="fa-solid fa-check" aria-hidden="true"></i>
+                Clean, user-friendly UI
+              </li>
+              <li>
+                <i class="fa-solid fa-check" aria-hidden="true"></i>
+                Modern web technologies
+              </li>
+              <li>
+                <i class="fa-solid fa-check" aria-hidden="true"></i>
+                Responsive interfaces
+              </li>
+              <li>
+                <i class="fa-solid fa-check" aria-hidden="true"></i>
+                Performance-minded code
+              </li>
+              <li>
+                <i class="fa-solid fa-check" aria-hidden="true"></i>
+                Component-driven development
+              </li>
+            </ul>
+
+            <div class="stats">
+              <div class="stat">
+                <small>Location</small>
+                <b>Alexandria, Egypt</b>
+              </div>
+
+              <div class="stat">
+                <small>Focus</small>
+                <b>Frontend Development</b>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills-section" aria-labelledby="skills-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">What I work with</span>
+          <h2 id="skills-title">Skills &amp; Technologies</h2>
+        </div>
+
+        <ul class="tech-grid" role="list">
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-html5" aria-hidden="true"></i>
+            <b>HTML5</b>
+            <small>Markup</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+            <b>CSS3</b>
+            <small>Styling</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-js" aria-hidden="true"></i>
+            <b>JavaScript</b>
+            <small>Language</small>
+          </li>
+
+          <li class="card tech rv">
+            <svg aria-hidden="true">
+              <use href="#i-ts"></use>
+            </svg>
+            <b>TypeScript</b>
+            <small>Language</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-react" aria-hidden="true"></i>
+            <b>React.js</b>
+            <small>Library</small>
+          </li>
+
+          <li class="card tech rv">
+            <svg aria-hidden="true">
+              <use href="#i-next"></use>
+            </svg>
+            <b>Next.js</b>
+            <small>Framework</small>
+          </li>
+
+          <li class="card tech rv">
+            <svg aria-hidden="true">
+              <use href="#i-tw"></use>
+            </svg>
+            <b>Tailwind CSS</b>
+            <small>Styling</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-solid fa-plug" aria-hidden="true"></i>
+            <b>REST APIs</b>
+            <small>Integration</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+            <b>Git</b>
+            <small>Version control</small>
+          </li>
+
+          <li class="card tech rv">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <b>GitHub</b>
+            <small>Collaboration</small>
+          </li>
+
+        </ul>
+
+        <div class="skills">
+
+          <div class="card skill rv">
+            <h3>
+              <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              Frontend
+            </h3>
+
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="card skill rv">
+            <h3>
+              <i class="fa-solid fa-plug" aria-hidden="true"></i>
+              APIs &amp; Authentication
+            </h3>
+
+            <div class="tags">
+              <span class="tag">REST APIs</span>
+              <span class="tag">API Integration</span>
+              <span class="tag">Postman</span>
+              <span class="tag">NextAuth.js</span>
+              <span class="tag">Authentication &amp; Sessions</span>
+              <span class="tag">Protected Routes</span>
+              <span class="tag">Cookies</span>
+            </div>
+          </div>
+
+          <div class="card skill rv">
+            <h3>
+              <i class="fa-solid fa-list-check" aria-hidden="true"></i>
+              Forms &amp; Validation
+            </h3>
+
+            <div class="tags">
+              <span class="tag">React Hook Form</span>
+              <span class="tag">Zod</span>
+            </div>
+          </div>
+
+          <div class="card skill rv">
+            <h3>
+              <i class="fa-solid fa-toolbox" aria-hidden="true"></i>
+              Tools &amp; Deployment
+            </h3>
+
+            <div class="tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Vercel</span>
+              <span class="tag">shadcn/ui</span>
+              <span class="tag">Swiper</span>
+              <span class="tag">Lucide / React Icons</span>
+              <span class="tag">Sonner</span>
+            </div>
+          </div>
+
+          <div class="card skill rv">
+            <h3>
+              <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i>
+              Other
+            </h3>
+
+            <div class="tags">
+              <span class="tag">Responsive Web Design</span>
+              <span class="tag">Reusable Components</span>
+              <span class="tag">Routing</span>
+              <span class="tag">Debugging &amp; Problem Solving</span>
+              <span class="tag">Microsoft Office</span>
+              <span class="tag">ICDL</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="portfolio" class="alt" aria-labelledby="portfolio-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">My work</span>
+          <h2 id="portfolio-title">Featured projects</h2>
+        </div>
+
+        <div
+          class="filters"
+          id="portfolio-filters"
+          role="group"
+          aria-label="Filter projects"
+        >
+          <button
+            class="portfolio-filter active"
+            data-filter="all"
+            aria-pressed="true"
+            type="button"
+          >
+            All
+          </button>
+
+          <button
+            class="portfolio-filter"
+            data-filter="web"
+            aria-pressed="false"
+            type="button"
+          >
+            Websites
+          </button>
+
+          <button
+            class="portfolio-filter"
+            data-filter="ecommerce"
+            aria-pressed="false"
+            type="button"
+          >
+            E-commerce
+          </button>
+        </div>
+
+        <div class="projects" id="portfolio-grid">
+
+          <!-- SocialApp -->
+          <article class="card portfolio-item rv" data-category="web">
+
+            <a
+              class="thumb"
+              href="https://social-qkbwit3s8-asmaaelhosary111222-alt.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              tabindex="-1"
+              aria-hidden="true"
+            >
+              <div class="shot">
+                <img
+                  src="./assets/imgs/socialapp.png"
+                  alt="SocialApp home page screenshot"
+                  loading="lazy"
+                />
+              </div>
+
+              <span class="overlay">
+                <span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Open live demo
+                </span>
+              </span>
+            </a>
+
+            <div class="p-body">
+              <span class="pill">Website</span>
+
+              <h3>SocialApp</h3>
+
+              <p>
+                SocialApp is a responsive social media web application
+                featuring user authentication, posts, likes, comments,
+                profiles, and dynamic content with a modern, user-friendly
+                interface.
+              </p>
+
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React.js</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Responsive Design</span>
+              </div>
+
+              <div class="p-actions">
+                <a
+                  class="btn btn-o btn-sm"
+                  href="https://github.com/asmaaelhosary111222-alt/SocialApp.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="SocialApp source code on GitHub (opens in a new tab)"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  GitHub
+                </a>
+
+                <a
+                  class="btn btn-p btn-sm"
+                  href="https://social-qkbwit3s8-asmaaelhosary111222-alt.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="SocialApp live demo (opens in a new tab)"
+                >
+                  <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                  Live demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- FreshCart -->
+          <article class="card portfolio-item rv" data-category="ecommerce">
+
+            <a
+              class="thumb"
+              href="https://fresh-cart-5kkyv0pwl-asmaaelhosary111222-alt.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              tabindex="-1"
+              aria-hidden="true"
+            >
+              <div class="shot">
+                <img
+                  src="./assets/imgs/freshcart.png"
+                  alt="FreshCart home page screenshot"
+                  loading="lazy"
+                />
+              </div>
+
+              <span class="overlay">
+                <span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Open live demo
+                </span>
+              </span>
+            </a>
+
+            <div class="p-body">
+              <span class="pill">E-commerce</span>
+
+              <h3>FreshCart</h3>
+
+              <p>
+                FreshCart is a modern responsive e-commerce website for online
+                shopping, featuring product search, categories, wishlist,
+                shopping cart, authentication, secure checkout, and online
+                payments.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">NextAuth.js</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">Git</span>
+                <span class="tag">GitHub</span>
+                <span class="tag">Vercel</span>
+              </div>
+
+              <div class="p-actions">
+                <a
+                  class="btn btn-o btn-sm"
+                  href="https://github.com/asmaaelhosary111222-alt/FreshCart.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="FreshCart source code on GitHub (opens in a new tab)"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  GitHub
+                </a>
+
+                <a
+                  class="btn btn-p btn-sm"
+                  href="https://fresh-cart-5kkyv0pwl-asmaaelhosary111222-alt.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="FreshCart live demo (opens in a new tab)"
+                >
+                  <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                  Live demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section
+      id="experience"
+      class="experience-section"
+      aria-labelledby="experience-title"
+    >
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">Training &amp; experience</span>
+          <h2 id="experience-title">Experience &amp; training</h2>
+        </div>
+
+        <ol class="timeline">
+
+          <li class="t-item rv">
+            <div class="card t-card">
+              <span class="t-date">Oct 2025 – Dec 2025</span>
+              <h3>Customer Support Associate</h3>
+              <p class="t-org">Concentrix</p>
+              <p>
+                Supporting customers day to day, which built skills I bring
+                to my frontend work.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Communication</span>
+                <span class="tag">Problem solving</span>
+                <span class="tag">Adaptability</span>
+                <span class="tag">Understanding user needs</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="t-item rv">
+            <div class="card t-card">
+              <span class="t-date">2024</span>
+              <h3>IT Internship / Training</h3>
+              <p class="t-org">Alexandria Petroleum Company</p>
+              <p>IT-related practical training/internship.</p>
+            </div>
+          </li>
+
+          <li class="t-item rv">
+            <div class="card t-card">
+              <span class="t-date">Certificate</span>
+              <h3>ICDL Certificate</h3>
+              <p class="t-org">International Computer Driving Licence</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="alt" aria-labelledby="services-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">How I can help</span>
+          <h2 id="services-title">Services</h2>
+        </div>
+
+        <div class="services">
+
+          <div class="card service rv">
+            <div class="ico">
+              <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>
+              Web applications built with React, Next.js and TypeScript.
+            </p>
+          </div>
+
+          <div class="card service rv">
+            <div class="ico">
+              <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+            </div>
+            <h3>Responsive Web Design</h3>
+            <p>
+              Layouts that work well on phones, tablets and desktops.
+            </p>
+          </div>
+
+          <div class="card service rv">
+            <div class="ico">
+              <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i>
+            </div>
+            <h3>UI Implementation</h3>
+            <p>
+              Turning designs into clean, reusable components.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" aria-labelledby="testimonials-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">Client feedback</span>
+          <h2 id="testimonials-title">Testimonials</h2>
+        </div>
+
+        <div class="empty rv">
+          <i class="fa-solid fa-quote-left" aria-hidden="true"></i>
+          <p>No client testimonials have been added yet.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="alt" aria-labelledby="contact-title">
+      <div class="wrap">
+
+        <div class="head rv">
+          <span class="kicker">Get in touch</span>
+          <h2 id="contact-title">Let's connect</h2>
+          <p>
+            For project inquiries or professional opportunities, you can
+            reach me through the contact details below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="c-list">
+
+            <a
+              href="mailto:asmaaelhosary111222@gmail.com"
+              class="card c-item rv"
+            >
+              <div class="ico">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <small>Email</small>
+                <b>asmaaelhosary111222@gmail.com</b>
+              </div>
+            </a>
+
+            <a href="tel:01101837673" class="card c-item rv">
+              <div class="ico">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <small>Phone</small>
+                <b>01101837673</b>
+              </div>
+            </a>
+
+            <div class="card c-item rv">
+              <div class="ico">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <small>Location</small>
+                <b>Alexandria, Egypt</b>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card form rv">
+            <h3>Send a message</h3>
+
+            <form
+              action="mailto:asmaaelhosary111222@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+
+              <div class="f">
+                <label for="name">Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="f">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="f">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-p">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                Send message
+              </button>
+
+              <p class="hint">
+                This opens your email app with the message ready to send.
+              </p>
+
+            </form>
+          </div>
+
+        </div>
+
+        <div class="cv-band rv">
+          <div>
+            <h3>Want the full picture?</h3>
+            <p>
+              Download my CV for my education, training and skills in one page.
+            </p>
+          </div>
+
+          <a
+            href="assets/Asmaa-Mahmoud-El-Hosary-CV.pdf"
+            download="Asmaa-Mahmoud-El-Hosary-CV.pdf"
+            class="btn btn-p btn-lg"
+            data-cv
+          >
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+            Download my CV
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer" role="contentinfo">
+    <div class="wrap">
+
+      <div class="f-grid">
+
+        <div>
+          <a href="#hero-section" class="logo">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            <span>Asmaa El-Hosary</span>
+          </a>
+
+          <p>
+            Frontend Developer based in Alexandria, Egypt, focused on building
+            responsive web applications with modern frontend technologies.
+          </p>
+        </div>
+
+        <div>
+          <h4>Navigate</h4>
+
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Links</h4>
+
+          <ul>
+            <li>
+              <a
+                href="https://github.com/asmaaelhosary111222-alt"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.linkedin.com/in/asmaa-mahmoud-41bb923a4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="f-bottom">
+        <p>&copy; 2026 Asmaa Elhosary. All rights reserved.</p>
+        <p>Alexandria, Egypt</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./assets/js/index.js"></script>
+
+</body>
+</html>
